@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Bayyo 100k",
+    "thumb": "https://i.imgur.com/WrMOYa1.png",
+    "category": "gerais",
+    "details": {
+      "author": "Bayyo",
+      "slug": "gerais-bayyo-100k",
+      "preview": [
+        {
+          "image": "https://i.imgur.com/WrMOYa1.png"
+        },
+        {
+          "image": "https://i.imgur.com/WrMOYa1.png"
+        },
+        {
+          "image": "https://i.imgur.com/WrMOYa1.png"
+        }
+      ]
+    },
+    "download": {
+      "bedrock": "https://mediafire.com/",
+      "java": "https://mediafire.com/"
+    }
+  },
+  {
+    "name": "Bayyo 80k",
+    "thumb": "https://i.imgur.com/j6lgSiY.png",
+    "category": "gerais",
+    "details": {
+      "author": "Bayyo",
+      "slug": "gerais-bayyo-80k",
+      "preview": [
+        {
+          "image": "https://i.imgur.com/j6lgSiY.png"
+        },
+        {
+          "image": "https://i.imgur.com/j6lgSiY.png"
+        },
+        {
+          "image": "https://i.imgur.com/j6lgSiY.png"
+        }
+      ]
+    },
+    "download": {
+      "bedrock": "https://mediafire.com/",
+      "java": "https://mediafire.com/"
+    }
+  },
+  {
+    "name": "Youtubers Bayyo 100k",
+    "thumb": "https://i.imgur.com/WrMOYa1.png",
+    "category": "youtubers",
+    "details": {
+      "author": "Bayyo",
+      "slug": "youtubers-bayyo-100k",
+      "preview": [
+        {
+          "image": "https://i.imgur.com/WrMOYa1.png"
+        },
+        {
+          "image": "https://i.imgur.com/WrMOYa1.png"
+        },
+        {
+          "image": "https://i.imgur.com/WrMOYa1.png"
+        }
+      ]
+    },
+    "download": {
+      "bedrock": "https://mediafire.com/",
+      "java": "https://mediafire.com/"
+    }
+  },
+  {
+    "name": "Youtubers Bayyo 80k",
+    "thumb": "https://i.imgur.com/j6lgSiY.png",
+    "category": "youtubers",
+    "details": {
+      "author": "Bayyo",
+      "slug": "youtubers-bayyo-80k",
+      "preview": [
+        {
+          "image": "https://i.imgur.com/j6lgSiY.png"
+        },
+        {
+          "image": "https://i.imgur.com/j6lgSiY.png"
+        },
+        {
+          "image": "https://i.imgur.com/j6lgSiY.png"
+        }
+      ]
+    },
+    "download": {
+      "bedrock": "https://mediafire.com/",
+      "java": "https://mediafire.com/"
+    }
+  }
+]

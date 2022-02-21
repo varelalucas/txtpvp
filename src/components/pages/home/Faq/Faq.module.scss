@@ -1,0 +1,85 @@
+.faq {
+  margin-bottom: 100px;
+
+  .title {
+    .flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        font-family: 'social-gothic', sans-serif;
+        font-size: 56px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .duvidas {
+      max-width: 693px;
+      width: 100%;
+      margin-top: 50px;
+
+      details {
+        width: 100%;
+        margin: 0 auto ;
+        border: 2px solid var(--clrSecondary);
+        margin-bottom: .5rem;
+        border-radius: 5px;
+        overflow: hidden;
+        outline: none;
+
+        .detailscontent {
+          padding: 2rem 1rem;
+          background-color: var(--clrSecondary);
+          overflow: hidden;
+          outline: none;
+          border: none;
+
+          p {
+            color: var(--bgPrimary);
+            font-size: 18px;
+          }
+        }
+      }
+      
+      summary {
+        padding: 1rem;
+        display: block;
+        position: relative;
+        cursor: pointer;
+        font-size: 29px;
+        font-weight: 500;
+        font-family: 'Degular', sans-serif;
+      }
+      
+      summary:after {
+        content: '';
+        border-width: .4rem;
+        border-style: solid;
+        border-color: transparent transparent transparent var(--clrSecondary);
+        position: absolute;
+        top: 1.3rem;
+        right: 1rem;
+        transform: rotate(90deg);
+        transform-origin: .2rem 50%;
+        transition: .25s transform ease;
+      }
+      
+      /* THE MAGIC 🧙‍♀️ */
+      details[open] > summary:after {
+        transform: rotate(270deg);
+      }
+      
+      
+      details summary::-webkit-details-marker {
+        display:none;
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+.download {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  
+  .content {
+    .flex {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+
+      .item {
+        max-width: 500px;
+        width: 100%;
+
+        &:nth-child(1) {
+          .card {
+            background-color: var(--clrSecondary);
+
+            .textos {
+              color: #fff;
+            }
+
+            .number {
+              background-color: var(--clrPrimary);
+              color: #fff;
+            }
+
+            button {
+              border: 2px solid var(--clrPrimary);
+              color: var(--clrPrimary);
+            }
+          }
+        }
+
+        &:nth-child(2) {
+          .card {
+            background-color: var(--clrPrimary);
+            
+            .textos {
+              color: #0F0F0F;
+            }
+
+            .number {
+              background-color: var(--clrSecondary);
+            }
+
+            button {
+              border: 2px solid var(--clrSecondary);
+              color: var(--clrSecondary);
+            }
+          }
+        }
+
+        .card {
+          .flex {
+            justify-content: space-between;
+
+            .number {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding: 60px 10px 40px 10px;
+              max-width: 106px;
+              width: 100%;
+
+              h1 {
+                font-size: 144px;
+                font-family: "social-gothic";
+                color: #fff;
+              }
+            }
+
+            .textos {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              padding: 40px 20px;
+
+              h1 {
+                font-size: 36px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-family: "social-gothic";
+                margin-bottom: 50px;
+              }
+
+              h4 {
+                font-size: 18px;
+                font-family: "social-gothic";
+                text-transform: uppercase;
+              }
+
+              button {
+                padding: 10px 30px;
+                font-size: 24px;
+                font-family: "social-gothic";
+                text-transform: uppercase;
+                font-weight: 700;
+                width: fit-content;
+                margin-top: 10px;
+                border-radius: 4px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    .flex {
+      flex-direction: column;
+
+      .item {
+        .card {
+          .flex {
+            flex-direction: row;
+
+            .number {
+              h1 {
+                font-size: 48px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

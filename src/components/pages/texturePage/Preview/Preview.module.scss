@@ -1,0 +1,48 @@
+.preview {
+  margin-top: 200px;
+
+  .title {
+    h1 {
+      font-size: 67px;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-family: "social-gothic";
+    }
+  }
+
+  .content {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+
+      .item {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    h1 {
+      font-size: 48px !important;
+      text-align: center;
+    }
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+}

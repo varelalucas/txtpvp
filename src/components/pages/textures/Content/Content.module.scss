@@ -1,0 +1,134 @@
+.content {
+  margin-bottom: 200px;
+
+  .title {
+    background: rgba(0, 133, 255, 0.6);
+    padding: 100px 0 150px 0;
+
+    .search {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+
+      input {
+        padding: 20px;
+        background: rgba(0, 133, 255, 0.6);
+        height: 71px;
+        max-width: 902px;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 700;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+
+        &:focus {
+          outline: none;
+          color: #fff;
+          border: 2px solid #fff;
+        }
+        
+        &::placeholder {
+          color: #06569F;
+        }
+      }
+
+      .buttons {
+        display: flex;
+        gap: 30px;
+        
+        button {
+          font-size: 23px;
+          font-weight: 600;
+          text-transform: uppercase;
+          padding: 10px 20px 13px 20px;
+          border-radius: 8px;
+          background: #0085FF99;
+          color: #00DEFF;
+
+          &.active {
+            color: #06569F;
+            background-color: var(--clrPrimary)
+          }
+
+          &:hover {
+            filter: brightness(0.9);
+          }
+        }
+      }
+    }
+  }
+
+  .body {
+    margin-top: 150px;
+
+    .textures {
+      display: none;
+
+      &.active {
+        display: block;
+      }
+
+      .title {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+
+        h4 {
+          font-size: 36px;
+          font-weight: 400;
+          color: var(--clrPrimary);
+        }
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+
+        .item {
+          text-align: left;
+          color: var(--clrPrimary);
+
+          img {
+            width: 100%;
+          }
+
+          h4 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    .title {
+      .search {
+        flex-direction: column;
+        justify-content: center;
+
+        input {
+          &::placeholder {
+            font-size: 18px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+}

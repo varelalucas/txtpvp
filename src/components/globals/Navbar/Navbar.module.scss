@@ -1,0 +1,157 @@
+.navbar {
+  padding: 50px 0;
+    
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .links {
+      ul {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        li {
+          list-style: none;
+
+          button {
+            font-size: 23px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: var(--clrPrimary);
+
+            &:hover {
+              filter: brightness(0.9);
+            }
+
+            &.faq {
+              padding: 10px 20px 13px 20px;
+              color: var(--clrThird);
+              background-color: var(--clrPrimary);
+              border-radius: 8px;
+            }
+          }
+        }
+
+        .theme {
+          button {
+            i {
+              color: #fff;
+              font-size: 35px;
+            }
+          }
+        }
+      }
+    }
+
+    .hamburguer {
+      width: 30px !important;
+      height: 30px !important;
+      background-color: transparent;
+      border-radius: 5px;
+      cursor: pointer;
+      display: none;
+      border: 0;
+  
+      &::after {
+        content: '';
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        width: 30px;
+        height: 4px;
+        border-radius: 5px;
+        background-color: #fff;
+      }
+  
+      &::before {
+        content: '';
+        position: absolute;
+        top: 90%;
+        left: 15%;
+        width: 30px;
+        height: 4px;
+        border-radius: 5px;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 20px !important;
+
+    .flex {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .brand {
+        align-self: flex-start !important;
+      }
+
+      .links {
+        ul {
+          flex-direction: column;
+          align-items: center;
+          margin-top: -100px;
+        }
+      }
+    }
+  }
+
+  .navbar {
+    .flex {
+      .links {
+        display: none;
+      }
+
+      .hamburguer {
+        display: block !important;
+        z-index: 999;
+        top: 0;
+        position: absolute;
+        right: 10%;
+        background-color: transparent !important;
+        top: 50px;
+        transition: .2s all ease;
+    
+        &::after, &::before {
+          transition: .2s all ease;
+        }
+      }
+    }
+
+    &.active {
+      .flex {
+        align-items: inherit !important;
+
+        .brand {
+          width: 100%;
+        }
+
+        .links {
+          display: block !important;
+          margin-top: 150px;
+          text-align: center;
+        }
+
+        .hamburguer {
+          &::after {
+            transform: rotate(45deg);
+            transition: .2s all ease;
+          }
+    
+          &::before {
+            transform: rotate(-45deg);
+            margin-top: -16px;
+            transition: .2s all ease;
+          }
+        }
+      }
+    }
+  }
+}

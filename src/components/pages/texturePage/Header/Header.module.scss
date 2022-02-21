@@ -1,0 +1,28 @@
+.header {
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center center !important;
+
+  .hero {
+    padding: 150px 0 50px 0;
+
+    h4 {
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: lowercase;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-family: "social-gothic";
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .hero {
+    text-align: center;
+  }
+}

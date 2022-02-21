@@ -1,0 +1,137 @@
+.header {
+  background: url('/images/backgrounds/backgroundheader.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 100px;
+
+  .hero {
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .textos {
+        max-width: 448px;
+
+        h1 {
+          font-size: 56px;
+          line-height: 58,74px;
+          font-family: 'social-gothic', sans-serif;
+          color: #fff;
+
+          span {
+            font-family: 'social-gothic', sans-serif;
+            color: var(--clrPrimary);
+          }
+        }
+
+        .buttons {
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          margin-top: 40px;
+
+          .button {
+            text-align: center;
+
+            button {
+              padding: 10px 20px 15px 20px;
+              border-radius: 3px;
+              font-weight: 700;
+              font-size: 25px;
+              transition: .2s all ease;
+              width: 194px;
+
+              &:hover {
+                filter: brightness(0.9);
+              }
+            }
+
+            p {
+              font-size: 10px;
+              font-style: italic;
+              color: var(--clrPrimary);
+              margin-top: 5px;
+            }
+
+            &:nth-child(2) {
+              button {
+                background-color: var(--clrSecondary);
+                color: var(--clrPrimary);
+              }
+            }
+
+            &:nth-child(1) {
+              button {
+                background-color: var(--clrPrimary);
+                color: var(--clrSecondary);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .setas {
+    .flex {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+      margin-top: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header {
+    .hero {
+      .flex {
+        .textos {
+
+          h1 {
+            font-size: 48px;
+          }
+
+          .buttons {
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+
+            .button {
+              button {
+                width: 100%;
+              }
+            }
+          }
+        }
+
+        .image {
+          img {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header {
+    .hero {
+      .flex {
+        padding: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+      }
+    }
+  }
+}
