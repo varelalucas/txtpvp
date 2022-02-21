@@ -1,8 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from 'next'
+import { useRouter } from 'next/router'
 import styles from './Footer.module.scss'
 
 const Footer: NextPage = () => {
+  const router = useRouter()
+
   return (
     <footer className={styles.footer}>
       <div className="container">
@@ -18,13 +21,13 @@ const Footer: NextPage = () => {
             </h4>
             <ul>
               <li>
-                <button>
+                <button onClick={() => router.push('/')}>
                   Homepage
                 </button>
               </li>
               <li>
-                <button>
-                  Downloads
+                <button onClick={() => router.push('/textures')}>
+                  Texturas
                 </button>
               </li>
             </ul>
