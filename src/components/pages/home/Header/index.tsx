@@ -1,9 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from 'next'
+import { useRouter } from 'next/router'
 import { Navbar } from '../../../globals/Navbar'
 import styles from './Header.module.scss'
 
 const Header: NextPage = () => {
+  const router = useRouter()
+
   return (
     <header className={styles.header}>
       <Navbar />
@@ -16,7 +19,7 @@ const Header: NextPage = () => {
               </h1>
               <div className={styles.buttons}>
                 <div className={styles.button}>
-                  <button>
+                  <button onClick={() => router.push('/#textures')}>
                     Ver texturas
                   </button>
                   <p>
@@ -24,7 +27,7 @@ const Header: NextPage = () => {
                   </p>
                 </div>
                 <div className={styles.button}>
-                  <button>
+                  <button onClick={() => router.push('/#textures')}>
                     Youtubers
                   </button>
                   <p>
@@ -41,11 +44,12 @@ const Header: NextPage = () => {
       </div>
       <div className={styles.setas}>
         <div className={styles.flex}>
-          <button>
+          <button onClick={() => router.push('/#textures')}>
             <img src="/images/renders/setas.svg" alt="Setas" />
           </button>
         </div>
       </div>
+      <div id="textures" />
     </header>
   )
 }
