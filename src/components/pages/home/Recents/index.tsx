@@ -89,7 +89,7 @@ const Recents: NextPage = () => {
           <div className={active == "two" ? `${styles.gerais} ${styles.active}` : styles.gerais}>
             <div className={styles.grid}>
               {textures.map((texture: any) => {
-                if (texture.category === "gerais") {
+                if (texture.category === "gerais" || texture.category === "youtubers") {
                   const link = `/textures/${texture.details.slug}`
 
                   return (

@@ -25,6 +25,15 @@
         }
       }
     }
+
+    .video {
+      margin-top: 50px;
+
+      iframe {
+        width: 100%;
+        height: 540px;
+      }
+    }
   }
 }
 

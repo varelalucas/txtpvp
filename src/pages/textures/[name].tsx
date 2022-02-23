@@ -16,6 +16,7 @@ type textureProps = {
   details: {
     author: string;
     slug: string;
+    videoId: string;
     preview: {
       image: string;
     }[];
@@ -34,6 +35,7 @@ const Home: NextPage = () => {
     details: {
       author: "",
       slug: "",
+      videoId: "",
       preview: []
     },
     download: {
@@ -57,12 +59,12 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>
-          Texturas | TxtPvp
+          {texture.name} | TxtPvp
         </title>
       </Head>
       <Header author={texture.details.author} name={texture.name} thumb={texture.thumb} />
       <main>
-        <Preview preview={texture.details.preview} />
+        <Preview videoId={texture.details.videoId} preview={texture.details.preview} />
         <Download name={texture.name} download={texture.download} />
       </main>
       <Footer />

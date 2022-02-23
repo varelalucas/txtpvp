@@ -8,10 +8,11 @@ import styles from './Preview.module.scss'
 type previewProps = {
   preview: {
     image: string;
-  }[]
+  }[];
+  videoId: string;
 }
 
-const Preview: NextPage<previewProps> = ({preview}) => {
+const Preview: NextPage<previewProps> = ({preview , videoId}) => {
   useEffect(() => console.log(preview))
   return (
     <section className={styles.preview}>
@@ -30,6 +31,9 @@ const Preview: NextPage<previewProps> = ({preview}) => {
                 </div>
               )
             })}
+          </div>
+          <div className={styles.video}>
+          <iframe src={`https://www.youtube.com/embed/${videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
           </div>
         </div>
       </div>

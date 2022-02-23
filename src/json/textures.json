@@ -2,10 +2,11 @@
   {
     "name": "Bayyo 100k",
     "thumb": "https://i.imgur.com/WrMOYa1.png",
-    "category": "gerais",
+    "category": "youtubers",
     "details": {
       "author": "Bayyo",
-      "slug": "gerais-bayyo-100k",
+      "slug": "youtubers-bayyo-100k",
+      "videoId": "",
       "preview": [
         {
           "image": "https://i.imgur.com/WrMOYa1.png"
@@ -25,74 +26,127 @@
   },
   {
     "name": "Bayyo 80k",
-    "thumb": "https://i.imgur.com/j6lgSiY.png",
-    "category": "gerais",
-    "details": {
-      "author": "Bayyo",
-      "slug": "gerais-bayyo-80k",
-      "preview": [
-        {
-          "image": "https://i.imgur.com/j6lgSiY.png"
-        },
-        {
-          "image": "https://i.imgur.com/j6lgSiY.png"
-        },
-        {
-          "image": "https://i.imgur.com/j6lgSiY.png"
-        }
-      ]
-    },
-    "download": {
-      "bedrock": "https://mediafire.com/",
-      "java": "https://mediafire.com/"
-    }
-  },
-  {
-    "name": "Youtubers Bayyo 100k",
-    "thumb": "https://i.imgur.com/WrMOYa1.png",
-    "category": "youtubers",
-    "details": {
-      "author": "Bayyo",
-      "slug": "youtubers-bayyo-100k",
-      "preview": [
-        {
-          "image": "https://i.imgur.com/WrMOYa1.png"
-        },
-        {
-          "image": "https://i.imgur.com/WrMOYa1.png"
-        },
-        {
-          "image": "https://i.imgur.com/WrMOYa1.png"
-        }
-      ]
-    },
-    "download": {
-      "bedrock": "https://mediafire.com/",
-      "java": "https://mediafire.com/"
-    }
-  },
-  {
-    "name": "Youtubers Bayyo 80k",
-    "thumb": "https://i.imgur.com/j6lgSiY.png",
+    "thumb": "https://i.imgur.com/88lv3LB.jpeg",
     "category": "youtubers",
     "details": {
       "author": "Bayyo",
       "slug": "youtubers-bayyo-80k",
+      "videoId": "NCuoVIYkUTQ",
       "preview": [
         {
-          "image": "https://i.imgur.com/j6lgSiY.png"
+          "image": "https://i.imgur.com/88lv3LB.jpeg"
         },
         {
-          "image": "https://i.imgur.com/j6lgSiY.png"
+          "image": "https://i.imgur.com/88lv3LB.jpeg"
         },
         {
-          "image": "https://i.imgur.com/j6lgSiY.png"
+          "image": "https://i.imgur.com/88lv3LB.jpeg"
         }
       ]
     },
     "download": {
-      "bedrock": "https://mediafire.com/",
-      "java": "https://mediafire.com/"
+      "bedrock": "https://bit.ly/Bayyo80k",
+      "java": "https://bit.ly/Bayyo80k"
+    }
+  },
+  {
+    "name": "Bayyo 60k",
+    "thumb": "https://i.imgur.com/p9A1Ehs.jpeg",
+    "category": "youtubers",
+    "details": {
+      "author": "Bayyo",
+      "slug": "youtubers-bayyo-60k",
+      "videoId": "WupQwTANtMs",
+      "preview": [
+        {
+          "image": "https://i.imgur.com/p9A1Ehs.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/p9A1Ehs.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/p9A1Ehs.jpeg"
+        }
+      ]
+    },
+    "download": {
+      "bedrock": "https://bit.ly/Bayyo60K",
+      "java": "https://bit.ly/Bayyo60K"
+    }
+  },
+  {
+    "name": "Jadeite 16x",
+    "thumb": "https://i.imgur.com/d5g8RvZ.jpeg",
+    "category": "gerais",
+    "details": {
+      "author": "Bayyo",
+      "slug": "gerais-jadeite-16x",
+      "videoId": "fCu_7n7RPsQ",
+      "preview": [
+        {
+          "image": "https://i.imgur.com/d5g8RvZ.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/d5g8RvZ.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/d5g8RvZ.jpeg"
+        }
+      ]
+    },
+    "download": {
+      "bedrock": "https://bit.ly/3eAy16v",
+      "java": "https://bit.ly/3eAy16v"
+    }
+  },
+  {
+    "name": "Purple 32x",
+    "thumb": "https://i.imgur.com/Muhi2ts.jpeg",
+    "category": "gerais",
+    "details": {
+      "author": "Damify",
+      "slug": "gerais-purple-32x",
+      "videoId": "GoaE1ScunYI",
+      "preview": [
+        {
+          "image": "https://i.imgur.com/Muhi2ts.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/Muhi2ts.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/Muhi2ts.jpeg"
+        }
+      ]
+    },
+    "download": {
+      "bedrock": "https://bit.ly/2Xe4f2v",
+      "java": "https://bit.ly/2Xe4f2v"
+    }
+  },
+  {
+    "name": "Midnight 16x",
+    "thumb": "https://i.imgur.com/LCwU7pk.jpeg",
+    "category": "gerais",
+    "details": {
+      "author": "Bayyo",
+      "slug": "gerais-midnight-16x",
+      "videoId": "Yv0oUwMHODM",
+      "preview": [
+        {
+          "image": "https://i.imgur.com/LCwU7pk.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/LCwU7pk.jpeg"
+        },
+        {
+          "image": "https://i.imgur.com/LCwU7pk.jpeg"
+        }
+      ]
+    },
+    "download": {
+      "bedrock": "https://bit.ly/3oWCaXA",
+      "java": "https://bit.ly/3oWCaXA"
     }
   }
 ]
