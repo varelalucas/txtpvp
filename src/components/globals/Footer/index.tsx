@@ -38,12 +38,12 @@ const Footer: NextPage = () => {
             </h4>
             <ul>
               <li>
-                <button>
+                <button onClick={() => router.push('https://discord.gg/QP9VxYzQEy')}>
                   Discord
                 </button>
               </li>
               <li>
-                <button>
+                <button onClick={() => router.push('https://www.youtube.com/channel/UCVN6F-G3W-6UeqSVJiF23cg')}>
                   Youtube
                 </button>
               </li>

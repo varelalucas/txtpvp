@@ -1,6 +1,7 @@
 import '../styles/globals.scss'
 import Head from 'next/head'
 import { useEffect } from 'react'
+import Script from 'next/script'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -48,6 +49,7 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Component {...pageProps} />
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4068921545552444" crossOrigin="anonymous"/>
     </>
   )
 }

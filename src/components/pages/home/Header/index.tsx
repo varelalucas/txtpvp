@@ -27,11 +27,11 @@ const Header: NextPage = () => {
                   </p>
                 </div>
                 <div className={styles.button}>
-                  <button onClick={() => router.push('/#textures')}>
-                    Youtubers
+                  <button onClick={() => router.push('https://discord.gg/QP9VxYzQEy')}>
+                    Discord
                   </button>
                   <p>
-                    Clique para ver texturas de youtubers.
+                    Clique para entrar em nosso discord.
                   </p>
                 </div>
               </div>

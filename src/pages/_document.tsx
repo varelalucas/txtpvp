@@ -1,6 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { useEffect } from 'react'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
@@ -45,6 +44,7 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="https://use.typekit.net/tqh1utv.css" />
         </Head>
         <body id="document">
+          <meta name="copyright" content={`\n\n  Powered by Brand Store Design\n\n  Instagram: https://www.instagram.com/brandstoredesign/\n  Site: https://brandstoredesign.com.br/\n  Whatsapp: https://brandstoredesign.com.br/whatsapp\n  Discord: https://brandstoredesign.com.br/discord\n\n`} />
           <Main />
           <NextScript />
         </body>

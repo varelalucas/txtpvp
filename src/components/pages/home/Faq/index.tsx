@@ -29,7 +29,7 @@ const Faq: NextPage = () => {
         </div>
         <div className={styles.content}>
           <div className={styles.duvidas}>
-            <details open>
+            <details>
               <summary>O que é a TXTPVP?</summary>
               <div className={styles.detailscontent}>
                 <p>
