@@ -42,7 +42,7 @@ const Navbar: NextPage = () => {
       <div className="container">
         <div className={styles.flex}>
           <div className={styles.brand}>
-            <button>
+            <button onClick={() => router.push('/')}>
               <img src="/images/brand/logo.png" alt="Logo" width="162px" height="90px" />
             </button>
           </div>
