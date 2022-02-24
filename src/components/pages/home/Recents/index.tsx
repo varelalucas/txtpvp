@@ -40,9 +40,6 @@ const Recents: NextPage = () => {
     <section className={styles.recents}>
       <div className={styles.title}>
         <div className={styles.flex}>
-          <p>
-            Uma textura funcional não é simplesmente bonita, é a  melhor!
-          </p>
           <h1>
             Texturas Recentes:
           </h1>

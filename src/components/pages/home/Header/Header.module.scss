@@ -75,6 +75,12 @@
           }
         }
       }
+
+      .image {
+        img {
+          animation: floatTop 13s infinite backwards;
+        }
+      }
     }
   }
 
@@ -138,10 +144,13 @@
 }
 
 @keyframes floatTop {
-  from {
+  0% {
     transform: translateY(0);
   }
-  to {
-    transform: translateY(10%);
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
