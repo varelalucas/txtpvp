@@ -58,6 +58,11 @@ const Footer: NextPage = () => {
             </div>
           </div>
         </div>
+        <div className={styles.rights}>
+          <h1>
+            &copy; TXTPVP 2022. All rights reserved. This site is not affiliated with Minecrafat or Monjang Studios.
+          </h1>
+        </div>
       </div>
     </footer>
   )
