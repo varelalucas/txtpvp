@@ -46,9 +46,9 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, maximum-scale=6.0, minimal-ui"
           user-scalable="no"
         />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1866214493982074" crossOrigin="anonymous"></script>
       </Head>
       <Component {...pageProps} />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1866214493982074" crossOrigin="anonymous"></script>
     </>
   )
 }
